@@ -1,5 +1,4 @@
-# python-diagrams
-### Diagram as a Code 
+# Diagram as a Code 
 Refer official [documentation](https://diagrams.mingrammer.com/)
 
 
@@ -13,3 +12,6 @@ Add path to ~/graphviz/bin to ENV PATH
 - k8s 2 Replicas : Typcial app deployment exposed with svc,ingress with 2 replicas [myapp](/myapp.png)
 - my go app: Typcial flowchart for checking new user [my-go-app](/my-go-app.pdf)
 - digital ocean compute: on-prem docker communicating to cloudapp as common link that has other services hosted on kubernetes [mycloudapp](/digitalocean_compute.svg)
+
+## How to contribute
+- Read the [contributing guide](/CONTRIBUTING.md) for more details.
