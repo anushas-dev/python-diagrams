@@ -13,6 +13,7 @@ Commonly noticed error if you didn't have graphviz properly installed:
 - k8s 2 Replicas : Typcial app deployment exposed with svc,ingress with 2 replicas [myapp](/myapp.png)
 - my go app: Typcial flowchart for checking new user [my-go-app](/my-go-app.pdf)
 - digital ocean compute: on-prem docker communicating to cloudapp as common link that has other services hosted on kubernetes [mycloudapp](/digitalocean_compute.svg)
+- data pipeline streaming: Real-time streaming data pipeline with Kinesis, Lambda, S3, Spark, Redshift and ML inference [data-pipeline-streaming](/data-pipeline-streaming.png)
 
 ## How to contribute
 - Read the [contributing guide](/CONTRIBUTING.md) for more details.
