@@ -25,7 +25,7 @@ Legends (Component Descriptions):
 with Diagram(
     "DWGU Data Warehouse ETL Flow",
     show=True,
-    filename="dwgu-diagram",
+    filename="./data-pipeline/dwgu-diagram",
     outformat="png",
     direction="LR"
 ):

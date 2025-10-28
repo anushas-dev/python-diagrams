@@ -8,7 +8,7 @@ from diagrams.aws.integration import SNS, SQS
 from diagrams.aws.management import Cloudwatch
 
 
-with Diagram("Serverless Architecture", show=True, filename="serverless-architecture", outformat="png"):
+with Diagram("Serverless Architecture", show=True, filename="./serverless/serverless-architecture", outformat="png"):
     # Public API + Auth
     api_gateway = APIGateway("API Gateway")
     user_auth = Cognito("Cognito User Pool")

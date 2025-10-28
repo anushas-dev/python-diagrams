@@ -20,7 +20,7 @@ graph_attr = {
 
 with Diagram(
     "Real-Time Recommendation System ML Pipeline",
-    filename="recommendation_system_pipeline",
+    filename="./recommendation-system/recommendation_system_pipeline",
     show=False,
     direction="LR",
     graph_attr=graph_attr

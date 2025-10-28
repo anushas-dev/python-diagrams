@@ -10,7 +10,8 @@ from diagrams.aws.database import DDB
 from diagrams.aws.analytics import Athena
 
 
-with Diagram("Logging & Monitoring Stack", show=True, filename="logging-monitoring-stack", direction="LR"):
+with Diagram("Logging & Monitoring Stack", show=True, 
+             filename="./logging-monitoring/logging-monitoring-stack", direction="LR"):
     # Ingestion layer
     with Cluster("Ingestion"):
         api_gateway = APIGateway("API Gateway")

@@ -33,7 +33,7 @@ Components:
 with Diagram(
     "Real-time Streaming Data Pipeline",
     show=False,
-    filename="data-pipeline-streaming",
+    filename="./data-pipeline/data-pipeline-streaming",
     outformat="png",
     direction="TB"
 ):

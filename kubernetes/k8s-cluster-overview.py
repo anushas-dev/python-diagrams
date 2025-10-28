@@ -5,7 +5,8 @@ from diagrams.azure.storage import StorageAccounts
 from diagrams.azure.database import DatabaseForPostgresqlServers
 from diagrams.azure.monitor import Monitor
 
-with Diagram("Kubernetes Cluster Overview (Azure)", filename="k8s-cluster-overview-azure", show=False, direction="LR"):
+with Diagram("Kubernetes Cluster Overview (Azure)", 
+             filename="./kubernetes/k8s-cluster-overview-azure", show=False, direction="LR"):
     # External traffic
     app_gw = ApplicationGateway("App Gateway / ALB")
 

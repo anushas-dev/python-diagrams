@@ -18,7 +18,7 @@ graph_attr = {
 
 with Diagram(
     "AWS GenAI LLM Chatbot Architecture",
-    filename="aws_genai_chatbot_architecture",
+    filename="./chatbot/aws_genai_chatbot_architecture",
     show=False,
     direction="TB",
     graph_attr=graph_attr

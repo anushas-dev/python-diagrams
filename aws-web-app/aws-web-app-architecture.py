@@ -21,7 +21,7 @@ def create_architecture() -> None:
     """
     with Diagram(
         "AWS Web Application Architecture",
-        filename="aws-web-app-architecture",
+        filename="./aws-web-app/aws-web-app-architecture",
         outformat="png",
         show=False,
         direction="LR",

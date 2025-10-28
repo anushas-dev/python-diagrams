@@ -25,7 +25,7 @@ def create_ci_cd_pipeline() -> None:
     """
     with Diagram(
         "CI/CD Pipeline",
-        filename="ci-cd-pipeline",
+        filename="./ci-cd-pipeline/ci-cd-pipeline",
         outformat="png",
         show=False,
         direction="LR",

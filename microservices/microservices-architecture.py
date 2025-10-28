@@ -3,7 +3,8 @@ from diagrams.aws.network import APIGateway
 from diagrams.aws.compute import Lambda
 from diagrams.aws.database import DDB
 
-with Diagram("Microservices Architecture", show=False):
+with Diagram("Microservices Architecture", show=False,
+             filename="./microservices/microservices-architecture", direction="LR"):
     # This is the entry point for users
     api_gateway = APIGateway("API Gateway")
 
