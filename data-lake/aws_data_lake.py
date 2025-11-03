@@ -2,11 +2,13 @@
 Diagram for a basic Data Lake Architecture on AWS.
 """
 from diagrams import Cluster, Diagram
-from diagrams.aws.analytics import Glue, Redshift, QuickSight
+from diagrams.aws.analytics import Glue, Redshift, Quicksight
 from diagrams.aws.storage import S3
-from diagrams.aws.database import DmsDatabaseMigrationService as DMS
+from diagrams.aws.database import DatabaseMigrationService as DMS
 
-with Diagram("AWS Data Lake Architecture", show=False):
+with Diagram("AWS Data Lake Architecture", 
+             filename="./data-lake/aws_data_lake",
+             show=False, direction="LR"):
     
     source = DMS("Data Source (e.g., DB)")
 
@@ -19,7 +21,7 @@ with Diagram("AWS Data Lake Architecture", show=False):
         
         s3_raw >> glue_etl >> redshift_dw
 
-    bi_tool = QuickSight("BI (QuickSight)")
+    bi_tool = Quicksight("BI (QuickSight)")
     
     source >> s3_raw
     redshift_dw >> bi_tool

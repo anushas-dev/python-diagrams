@@ -7,7 +7,9 @@ from diagrams.aws.compute import EC2
 from diagrams.aws.database import RDS
 from diagrams.aws.storage import S3
 
-with Diagram("AWS Multi-Region DR Architecture", show=False):
+with Diagram("AWS Multi-Region DR Architecture", 
+             filename="./disaster-recovery/aws_disaster_recovery",
+             show=False):
 
     dns = Route53("DNS (Route 53)")
 
